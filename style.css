@@ -6,13 +6,13 @@ body {
 }
 
 .todo-matrix  {
-  width:500px;
-  margin:0 auto;
+  width: 500px;
+  margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.todo-matrix  img {
+.todo-matrix img {
   width: 100%;
 }
 
@@ -22,7 +22,7 @@ body {
 
 @media (max-width:768px) {
 
-  .todo-matrix  { 
+  .todo-matrix { 
     text-align: center;
   }
 
@@ -45,16 +45,16 @@ body {
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -159,8 +159,8 @@ input,button{
 }
 
 .task-item.editMode .task__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 } 
 
 .task-item.editMode .task__label {
